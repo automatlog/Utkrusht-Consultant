@@ -4,27 +4,84 @@ function OurServices() {
   const services = [
     {
       id: 1,
-      icon: 'icon-services-1.svg',
-      title: 'optimization',
-      description: 'Our services include SEO Optimization to enhance organic search visibility.',
-      link: '/service-single'
+      icon: "digital_market.png",
+      title: "Digital Marketing",
+      description: "Boost your online presence with SEO, content marketing, social media, paid ads, and analytics to drive visibility and conversions.",
+      link: "/services/digital-marketing",
     },
+
     {
       id: 2,
-      icon: 'icon-services-2.svg',
-      title: 'pay-par click',
-      description: 'Pay-Per-Click (PPC) Advertising for targeted lead generation.',
-      link: '/service-single',
-      delay: '0.25s'
+      icon: "HR_management.jpg",
+      title: "HR Management",
+      description:
+        "Comprehensive workforce solutions including recruitment, training, employee relations, and strategic HR planning.",
+      link: "/services/hr-management",
+      delay: "0.25s",
     },
     {
       id: 3,
-      icon: 'icon-services-3.svg',
-      title: 'SEO optimiz',
-      description: "SEO Optimization service focuses on improving your website's visibility.",
-      link: '/service-single',
-      delay: '0.5s'
-    }
+      icon: "brand_management.jpg",
+      title: "Brand Management",
+      description:
+        "Build a strong market presence through effective brand positioning, messaging, visual identity, and customer engagement.",
+      link: "/services/brand-management",
+      delay: "0.5s",
+    },
+    {
+      id: 4,
+      icon: "sales_management.jpg",
+      title: "Sales Management",
+      description:
+        "Maximize revenue with sales goal setting, performance tracking, and strategies for consistent business growth.",
+      link: "/services/sales-management",
+      delay: "0.75s",
+    },
+    {
+      id: 5,
+      icon: "office_management.jpg",
+      title: "Back Office Management",
+      description:
+        "Efficient handling of accounting, data management, and operations to support smooth day-to-day business processes.",
+      link: "/services/back-office",
+      delay: "1s",
+    },
+    {
+      id: 6,
+      icon: "DMIT.jpg",
+      title: "DMIT & Midbrain Activation",
+      description:
+        "Explore talents with DMIT analysis and innovative techniques like midbrain activation for personal growth and insights.",
+      link: "/services/dmit",
+      delay: "1.25s",
+    },
+    {
+      id: 7,
+      icon: "digital_market.png",
+      title: "Web Development",
+      description:
+        "Custom websites and web applications designed to be fast, secure, and scalable for businesses of all sizes.",
+      link: "/services/web-development",
+      delay: "1.5s",
+    },
+    {
+      id: 8,
+      icon: "digital_market.png",
+      title: "Ecommerce & Digital Products",
+      description:
+        "Complete ecommerce solutions including online stores, digital product platforms, and seamless payment integration.",
+      link: "/services/ecommerce",
+      delay: "1.75s",
+    },
+    {
+      id: 9,
+      icon: "digital_market.png",
+      title: "Video Production",
+      description:
+        "High-quality video production services: product shoots, launch videos, brand campaigns, and real estate promotions.",
+      link: "/services/video-production",
+      delay: "2s",
+    },
   ];
 
   return (
@@ -51,9 +108,9 @@ function OurServices() {
             <div key={service.id} className="col-lg-4 col-md-6">
               <div className="service-item wow fadeInUp" data-wow-delay={service.delay || '0s'}>
                 <div className="icon-box">
-                  <img 
-                    src={`${process.env.PUBLIC_URL}/assets/images/${service.icon}`} 
-                    alt={service.title} 
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/${service.icon}`}
+                    alt={service.title}
                   />
                 </div>
                 <div className="service-body">

@@ -1,60 +1,73 @@
 import React from 'react';
 
-function WorkingProcess() {
-  const steps = [
-    { id: 1, title: 'research', description: 'Research needs and trends for informed decisions.' },
-    { id: 2, title: 'planning', description: 'Planning is actions to achieve business goals.' },
-    { id: 3, title: 'development', description: 'Enhance offerings based on feedback and innovation.' },
-    { id: 4, title: 'launch', description: 'Introduce products/services with a strategic rollout.' },
-  ];
-
+function WhyUs() {
   return (
-    <div className="working-process">
+    <div className="why-us">
       <div className="container">
-
-        <div className="row section-row align-items-center">
+        <div className="row section-row">
           <div className="col-lg-6">
             <div className="section-title">
-              <h3 className="wow fadeInUp">how it works</h3>
+              <h3 className="wow fadeInUp">why us ?</h3>
               <h2 className="wow fadeInUp" data-wow-delay="0.25s">
-                Collaborative journey from concept to execute
+                Discover the unique advantages
               </h2>
             </div>
           </div>
+        </div>
 
-          <div className="col-lg-6">
-            <div className="section-btn wow fadeInUp" data-wow-delay="0.5s">
-              <a href="/contact" className="btn-default">contact us</a>
+        <div className="row">
+          <div className="col-lg-3 col-md-6">
+            <div className="why-us-item wow fadeInUp">
+              <div className="icon-box">
+                <img src="/assets/images/icon-why-us-1.svg" alt="100% Secure" />
+              </div>
+              <div className="why-us-content">
+                <h3>100% Secure</h3>
+                <p>Our processes and solutions prioritize the security and confidentiality of your business information at every step.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-3 col-md-6">
+            <div className="why-us-item wow fadeInUp" data-wow-delay="0.25s">
+              <div className="icon-box">
+                <img src="/assets/images/icon-why-us-2.svg" alt="24/7 Support" />
+              </div>
+              <div className="why-us-content">
+                <h3>24/7 Support</h3>
+                <p>Our team is available around the clock to provide guidance, support, and solutions whenever you need them.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-3 col-md-6">
+            <div className="why-us-item wow fadeInUp" data-wow-delay="0.5s">
+              <div className="icon-box">
+                <img src="/assets/images/icon-why-us-3.svg" alt="Award Winner" />
+              </div>
+
+              <div className="why-us-content">
+                <h3>Award Winner</h3>
+                <p>Recognized for excellence, our consulting services have earned accolades for innovation, impact, and client satisfaction.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-3 col-md-6">
+            <div className="why-us-item wow fadeInUp" data-wow-delay="0.75s">
+              <div className="icon-box">
+                <img src="/assets/images/icon-why-us-4.svg" alt="Mutual Help" />
+              </div>
+              <div className="why-us-content">
+                <h3>Mutual Help</h3>
+                <p>We collaborate closely with clients, offering personalized guidance and comprehensive expertise across all business domains.</p>
+              </div>
             </div>
           </div>
         </div>
-
-        <div className="row wow fadeInUp" data-wow-delay="0.5s">
-          {steps.map((step) => (
-            <div key={step.id} className="col-lg-3 col-md-6">
-              <div className="working-process-step">
-                
-                <div className="working-process-header">
-                  <div className="working-process-title">
-                    <h3>{step.title}</h3>
-                  </div>
-                  <div className="working-process-no">
-                    <p>{step.id}</p>
-                  </div>
-                </div>
-
-                <div className="working-process-content">
-                  <p>{step.description}</p>
-                </div>
-
-              </div>
-            </div>
-          ))}
-        </div>
-
       </div>
     </div>
   );
 }
 
-export default WorkingProcess;
+export default WhyUs;

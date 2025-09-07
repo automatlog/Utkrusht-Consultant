@@ -2,6 +2,8 @@ import React from 'react';
 
 function Hero() {
   return (
+
+    <div>
     <div className="hero">
       <div className="container">
         <div className="row">
@@ -13,10 +15,13 @@ function Hero() {
               {/* Section Title Start */}
               <div className="section-title">
                 <h1 className="wow fadeInUp">
-                  Unlock your online potential and get a success
+                   🚀Empowering Businesses to Grow, Scale & Succeed
                 </h1>
                 <p className="wow fadeInUp" data-wow-delay="0.25s">
-                  We are a collective of visionary designers, storytellers, and strategists, passionate about bringing your brand to life. From initial concept to final delivery, we are committed to driving your success.
+                  At <strong>Utkrusht Consultant</strong>, we combine expertise in
+                  <em> Digital Marketing, HR, Sales, Brand Management, and Business Strategy</em>
+                  to transform challenges into opportunities. From startups to global enterprises,
+                  our 360° consulting solutions help you achieve measurable growth and long-term success.
                 </p>
               </div>
               {/* Section Title End */}
@@ -24,16 +29,16 @@ function Hero() {
               <div className="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
 
                 <div className="hero-agency-image">
-                  <img 
-                    src={`${process.env.PUBLIC_URL}/assets/images/hero-agency-image.svg`} 
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/hero-agency-image.svg`}
                     alt="Hero Agency"
                   />
                 </div>
 
                 <div className="hero-client-box">
                   <div className="hero-client-image">
-                    <img 
-                      src={`${process.env.PUBLIC_URL}/assets/images/hero-client-image.svg`} 
+                    <img
+                      src={`${process.env.PUBLIC_URL}/assets/images/hero-client-image.svg`}
                       alt="Hero Client"
                     />
                   </div>
@@ -50,6 +55,7 @@ function Hero() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -4,22 +4,22 @@ function OurTeam() {
   const teamMembers = [
     {
       id: 1,
-      name: 'sophia mitchell',
-      role: 'creative director',
+      name: 'Khusbhu Saini',
+      role: 'CPD Certified Corporate Trainer & Facilitator | Sales & Marketing Consultant | DMIT Counsellor',
       img: 'team-1.jpg',
       delay: '0s',
     },
     {
       id: 2,
-      name: 'john smith',
-      role: 'marketing manager',
+      name: 'Dushiyant Saini',
+      role: 'CEO | Business Consultant | DMIT Counsellor',
       img: 'team-2.jpg',
       delay: '0.25s',
     },
     {
       id: 3,
-      name: 'emily johnson',
-      role: 'software engineer',
+      name: 'Dharmjeetsinh Raulji',
+      role: 'Graphic Designer | Video Editor | Social Media Manager',
       img: 'team-3.jpg',
       delay: '0.5s',
     },
@@ -34,7 +34,7 @@ function OurTeam() {
             <div className="section-title">
               <h3 className="wow fadeInUp">our team</h3>
               <h2 className="wow fadeInUp" data-wow-delay="0.25s">
-                Meet the minds behind the magic
+                Meet our team of expert business consultants
               </h2>
             </div>
           </div>
@@ -64,7 +64,7 @@ function OurTeam() {
                 </div>
 
                 {/* Team Social List */}
-                <div className="team-social-list">
+                {/* <div className="team-social-list">
                   <div className="team-social-link">
                     <a href="#"><i className="fa-solid fa-share-nodes"></i></a>
                   </div>
@@ -75,7 +75,7 @@ function OurTeam() {
                       <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Team Content */}
                 <div className="team-content">
