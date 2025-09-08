@@ -5,7 +5,7 @@ function OurWork() {
     {
       id: 1,
       img: 'digital-marketing.jpg',
-      plusIcon: 'icon-plus.svg',
+      plusIcon: 'how-work-image-1.jpg',
       title: 'Digital Marketing Boost',
       tag: 'Marketing',
       description:
@@ -17,7 +17,7 @@ function OurWork() {
     {
       id: 2,
       img: 'hr-management.jpg',
-      plusIcon: 'icon-plus.svg',
+      plusIcon: 'ihow-work-image-2.jpg',
       title: 'Smart HR Solutions',
       tag: 'Workforce',
       description:
