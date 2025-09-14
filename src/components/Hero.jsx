@@ -19,7 +19,7 @@ function Hero() {
                 </h1>
                 <p className="wow fadeInUp" data-wow-delay="0.25s">
                   At <strong>Utkrusht Consultant</strong>, we combine expertise in
-                  <em> Digital Marketing, HR, Sales, Brand Management, and Business Strategy</em>
+                  <em> Digital Marketing, HR, Sales, Brand Management, and Business Strategy </em>
                   to transform challenges into opportunities. From startups to global enterprises,
                   our 360° consulting solutions help you achieve measurable growth and long-term success.
                 </p>
@@ -27,25 +27,6 @@ function Hero() {
               {/* Section Title End */}
 
               <div className="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
-
-                <div className="hero-agency-image">
-                  <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/hero-agency-image.svg`}
-                    alt="Hero Agency"
-                  />
-                </div>
-
-                <div className="hero-client-box">
-                  <div className="hero-client-image">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/assets/images/hero-client-image.svg`}
-                      alt="Hero Client"
-                    />
-                  </div>
-                  <div className="hero-client-content">
-                    <p>ask a question to manager</p>
-                  </div>
-                </div>
 
               </div>
 

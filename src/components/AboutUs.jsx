@@ -13,7 +13,7 @@ function MarketAbout() {
               <div className="section-title">
                 <h3 className="wow fadeInUp">leaders</h3>
                 <h2 className="wow fadeInUp" data-wow-delay="0.25s">
-                  Market leaders use diggy to grow
+                  Business leaders use Utkrusht Consultant to grow their business
                 </h2>
               </div>
             </div>

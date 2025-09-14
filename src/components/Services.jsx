@@ -12,7 +12,7 @@ function OurServices() {
     },
     {
       id: 2,
-      icon: "HR_management.jpg",
+      icon: "HR_management.png",
       title: "HR Management",
       description:
         "Comprehensive workforce solutions including recruitment, training, employee relations, and strategic HR planning.",
@@ -57,7 +57,7 @@ function OurServices() {
     },
     {
       id: 7,
-      icon: "icon-webdev.svg",
+      icon: "web-dev.png",
       title: "Web Development",
       description:
         "Custom websites and web applications designed to be fast, secure, and scalable for businesses of all sizes.",

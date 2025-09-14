@@ -85,14 +85,14 @@ function Footer() {
 
                     {/* Footer Logo Start */}
                     <div className="footer-logo">
-                      <img src={`${process.env.PUBLIC_URL}/assets/images/footer-logo.svg`} alt="Footer Logo" />
+                      <img src={`${process.env.PUBLIC_URL}/assets/images/logo.svg`} alt="Footer Logo" />
                     </div>
                     {/* Footer Logo End */}
 
                     {/* Footer Social List Start */}
                     <div className="footer-social-list">
                       <ul>
-                        <li><a href="#"><i className="fa-brands fa-instagram"></i>instagram</a></li>
+                        <li><a href="https://www.instagram.com/utkrushtconsultants"><i className="fa-brands fa-instagram"></i>instagram</a></li>
                       </ul>
                     </div>
                     {/* Footer Social List End */}
@@ -151,19 +151,12 @@ function Footer() {
             <div className="footer-copyright">
               <div className="row align-items-center">
                 <div className="col-lg-7">
-                  <div className="footer-privacy-policy">
-                    <ul>
-                      <li><a href="#">Presentation (PDF)</a></li>
-                      <li><Link to="/">FAQ's</Link></li>
-                      <li><a href="#">Policy</a></li>
-                      <li><a href="#">Term & Condition</a></li>
-                    </ul>
-                  </div>
+                  <p>Build by <font color="#8040fe">Digency</font></p>
                 </div>
 
                 <div className="col-lg-5">
                   <div className="footer-copyright-text">
-                    <p>Copyright © 2024 All Rights Reserved.</p>
+                    <p>Copyright © 2025 All Rights Reserved.</p>
                   </div>
                 </div>
               </div>
